@@ -1486,3 +1486,24 @@
 2022-03-15 23:01:40,261 DEBUG   SenderThread:13948 [sender.py:send_request():249] send_request: stop_status
 2022-03-15 23:01:55,456 DEBUG   HandlerThread:13948 [handler.py:handle_request():141] handle_request: stop_status
 2022-03-15 23:01:55,456 DEBUG   SenderThread:13948 [sender.py:send_request():249] send_request: stop_status
+2022-03-15 23:02:10,606 DEBUG   HandlerThread:13948 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-15 23:02:10,606 DEBUG   SenderThread:13948 [sender.py:send_request():249] send_request: stop_status
+2022-03-15 23:02:22,651 WARNING MainThread:13948 [internal.py:is_dead():387] Internal process exiting, parent pid 15768 disappeared
+2022-03-15 23:02:22,651 ERROR   MainThread:13948 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-03-15 23:02:23,493 INFO    SenderThread:13948 [sender.py:finish():1078] shutting down sender
+2022-03-15 23:02:23,493 INFO    HandlerThread:13948 [handler.py:finish():778] shutting down handler
+2022-03-15 23:02:23,493 INFO    SenderThread:13948 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-15 23:02:23,555 INFO    WriterThread:13948 [datastore.py:close():281] close: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\run-1dxc4yao.wandb
+2022-03-15 23:02:23,555 INFO    SenderThread:13948 [dir_watcher.py:finish():313] scan: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files
+2022-03-15 23:02:23,556 INFO    SenderThread:13948 [dir_watcher.py:finish():327] scan save: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\config.yaml config.yaml
+2022-03-15 23:02:23,556 INFO    SenderThread:13948 [dir_watcher.py:finish():327] scan save: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\output.log output.log
+2022-03-15 23:02:23,556 INFO    SenderThread:13948 [dir_watcher.py:finish():327] scan save: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\requirements.txt requirements.txt
+2022-03-15 23:02:23,561 INFO    SenderThread:13948 [dir_watcher.py:finish():327] scan save: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\wandb-metadata.json wandb-metadata.json
+2022-03-15 23:02:23,561 INFO    SenderThread:13948 [dir_watcher.py:finish():327] scan save: c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\wandb-summary.json wandb-summary.json
+2022-03-15 23:02:23,561 INFO    SenderThread:13948 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-15 23:02:23,561 INFO    SenderThread:13948 [file_pusher.py:join():150] waiting for file pusher
+2022-03-15 23:02:24,360 INFO    Thread-81 :13948 [upload_job.py:push():137] Uploaded file c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\requirements.txt
+2022-03-15 23:02:24,387 INFO    Thread-79 :13948 [upload_job.py:push():137] Uploaded file c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\config.yaml
+2022-03-15 23:02:24,743 INFO    Thread-80 :13948 [upload_job.py:push():137] Uploaded file c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\output.log
+2022-03-15 23:02:25,180 INFO    Thread-82 :13948 [upload_job.py:push():137] Uploaded file c:\Users\azwad\Documents\CS_59866\Homeworks\Homework 3\wandb\run-20220315_204041-1dxc4yao\files\wandb-summary.json
+2022-03-15 23:02:25,689 INFO    MainThread:13948 [internal.py:handle_exit():82] Internal process exited
